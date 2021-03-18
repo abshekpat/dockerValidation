@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="72152" started-at="2020-01-14T10:37:20Z" finished-at="2020-01-14T10:38:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="72152" started-at="2020-01-14T10:37:20Z" finished-at="2020-01-14T10:38:32Z">
+      <class name="remoteTesting.dockerValidation.chromeTest1">
+        <test-method status="PASS" signature="startDockerscale()[pri:0, instance:remoteTesting.dockerValidation.chromeTest1@3f2a3a5]" name="startDockerscale" is-config="true" duration-ms="23379" started-at="2020-01-14T10:37:20Z" finished-at="2020-01-14T10:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerscale -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:remoteTesting.dockerValidation.chromeTest1@3f2a3a5]" name="test1" duration-ms="3526" started-at="2020-01-14T10:37:43Z" finished-at="2020-01-14T10:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="stopDockerDeletefile()[pri:0, instance:remoteTesting.dockerValidation.chromeTest1@3f2a3a5]" name="stopDockerDeletefile" is-config="true" duration-ms="9386" started-at="2020-01-14T10:38:23Z" finished-at="2020-01-14T10:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerDeletefile -->
+      </class> <!-- remoteTesting.dockerValidation.chromeTest1 -->
+      <class name="remoteTesting.dockerValidation.chromeTest2">
+        <test-method status="PASS" signature="test2()[pri:0, instance:remoteTesting.dockerValidation.chromeTest2@4cb2c100]" name="test2" duration-ms="4225" started-at="2020-01-14T10:37:43Z" finished-at="2020-01-14T10:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- remoteTesting.dockerValidation.chromeTest2 -->
+      <class name="remoteTesting.dockerValidation.chromeTest3">
+        <test-method status="PASS" signature="test3()[pri:0, instance:remoteTesting.dockerValidation.chromeTest3@6fb554cc]" name="test3" duration-ms="39367" started-at="2020-01-14T10:37:43Z" finished-at="2020-01-14T10:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- remoteTesting.dockerValidation.chromeTest3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
